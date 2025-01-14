@@ -11,6 +11,11 @@ const LetsTalkButtomStyle = styled.header`
         border-radius: 20px;
         background: #4C6A9F;
         border-style: none;
+
+        &:hover {
+            background: #3A5480; 
+            transform: scale(1.05); 
+        }
     }
 
     a {
