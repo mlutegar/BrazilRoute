@@ -3,9 +3,22 @@ import {FooterStyle} from "./Style";
 
 const Footer = () => (
     <FooterStyle>
-        <Link to="/">Home</Link>
-        <Link to="/fotos">Fotos</Link>
-        <Link to="/atletas">Atletas</Link>
+        <div className={`${"imagem"}  `}>
+            <img src="imagens/logo-white.png" alt={"Logo"}/>
+        </div>
+
+        <div className={"menu"}>
+            <Link to="/">Contact</Link>
+            <Link to="/fotos">Services</Link>
+            <Link to="/atletas">About Us</Link>
+        </div>
+
+        <div className={"linha"}></div>
+
+        <div className={"menu"}>
+            <Link to="/">Copyrights</Link>
+        </div>
+
     </FooterStyle>
 )
 
