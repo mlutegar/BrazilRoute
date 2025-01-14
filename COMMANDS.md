@@ -9,7 +9,7 @@ $ git add .
 Comando para fazer commit dos arquivos:
 
 ```bash
-$ git commit -m "feat: mexendo no header" --no-verify
+$ git commit -m "feat: adicionando o header" --no-verify
 ```
 
 Comando para fazer push dos arquivos:
@@ -60,4 +60,12 @@ Comando para dá deploy no app (Lembre-se de mudar o urlSite antes de dá deploy
 
 ```bash
 $ vtex deploy {appvendor}.{appname}@{appversion}
+```
+
+# React
+
+Para rodar o projeto localmente:
+
+```bash
+$ npm run start-windows
 ```

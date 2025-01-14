@@ -1,13 +1,13 @@
 import styled from "styled-components"
 
 const Top = styled.header`
+    background: url("imagens/banner1.png");
+    color: #FFFECD;
     padding: .5em 150px;
     display: flex;
     flex-direction: row;
     margin: 0;
     height: 98px;
-    border-bottom: 3px solid #e1d885;
-    background: white;
     align-items: center;
     justify-content: space-between;
 
