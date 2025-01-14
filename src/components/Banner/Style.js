@@ -1,13 +1,17 @@
+// noinspection CssUnknownTarget
+
 import styled from "styled-components"
 
-const Top = styled.header`
+const BannerStyle = styled.header`
     background: url("imagens/banner1.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
     color: #FFFECD;
-    padding: .5em 150px;
+    padding-left: 150px;
     display: flex;
     flex-direction: row;
     margin: 0;
-    height: 98px;
     align-items: center;
     justify-content: space-between;
 
@@ -24,6 +28,19 @@ a {
         color: var(--secundaria);
     }
 }
+.Titulo {
+    font-size: 48px;
+    font-weight: 900;
+    margin: 0;
+    padding-top: 2em;
+    padding-bottom: 1em;
+}
+.Subtitulo {
+    font-size: 24px;
+    font-weight: normal;
+    margin: 0;
+    padding-bottom: 4em;
+}
 `
 
-export {Top}
+export {BannerStyle}

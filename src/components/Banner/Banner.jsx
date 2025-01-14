@@ -1,17 +1,23 @@
 import {Link} from "react-router-dom";
-import {Top} from "./Style";
+import {BannerStyle} from "./Style";
 
 const Banner = () => (
-    <Top>
+    <BannerStyle>
         <div>
-            <div>
-                Scale Your Tech Business in Brazil with Brazilroute
+            <div className={"Titulo"}>
+                Scale Your Tech <br/>
+                Business in Brazil with <br/>
+                Brazilroute <br/>
             </div>
-            <div>
-                Your trused partner for seamless market entry and acclerated growth.
+
+            <div className={"Subtitulo"}>
+                Your trusted partner for <br/>
+                <b>seamless market entry</b> <br/>
+                and <b>accelerated growth.</b> <br/>
             </div>
+
         </div>
-    </Top>
+    </BannerStyle>
 )
 
 export default Banner;
