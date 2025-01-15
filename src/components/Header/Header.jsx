@@ -1,19 +1,33 @@
-import {Link} from "react-router-dom";
-import {Top} from "./Style";
+import { useState, useEffect } from "react";
+import { Top } from "./Style";
 
-const Header = () => (
-    <Top>
-        <div className={`${"imagem"}  `}>
-            <img src="imagens/logo.png" alt={"Logo"}/>
-        </div>
+const Header = () => {
+    const [isScrolled, setIsScrolled] = useState(false);
 
-        <div className={"menu"}>
-            <a>Contact</a>
-            <a>Services</a>
-            <a>About us</a>
-        </div>
+    useEffect(() => {
+        const handleScroll = () => {
+            setIsScrolled(window.scrollY > 50);
+        };
 
-    </Top>
-)
+        window.addEventListener("scroll", handleScroll);
+        return () => {
+            window.removeEventListener("scroll", handleScroll);
+        };
+    }, []);
+
+    return (
+        <Top isScrolled={isScrolled}>
+            <div className="imagem">
+                <img src="imagens/logo.png" alt="Logo" />
+            </div>
+
+            <div className="menu">
+                <a href="/contact">Contact</a>
+                <a href="/services">Services</a>
+                <a href="/about-us">About us</a>
+            </div>
+        </Top>
+    );
+};
 
 export default Header;
