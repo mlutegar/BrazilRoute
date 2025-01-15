@@ -10,8 +10,7 @@ const WhatsSetsCardStyle = styled.div`
     animation: zoomIn 0.5s ease;
 
     &:hover {
-        transform: translateY(-10px); /* Elevação no hover */
-        box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2); /* Sombra mais pronunciada */
+        transform: translateY(-10px); 
     }
 
     .icon {
