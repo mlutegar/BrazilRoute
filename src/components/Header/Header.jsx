@@ -17,14 +17,16 @@ const Header = () => {
 
     return (
         <Top isScrolled={isScrolled}>
-            <div className="imagem">
-                <img src="imagens/logo.png" alt="Logo" />
-            </div>
+            <div className={"conteudo-header"}>
+                <div className="imagem">
+                    <img src="imagens/logo.png" alt="Logo" />
+                </div>
 
-            <div className="menu">
-                <a href="/contact">Contact</a>
-                <a href="/services">Services</a>
-                <a href="/about-us">About us</a>
+                <div className="menu">
+                    <a href="/contact">Contact</a>
+                    <a href="/services">Services</a>
+                    <a href="/about-us">About us</a>
+                </div>
             </div>
         </Top>
     );

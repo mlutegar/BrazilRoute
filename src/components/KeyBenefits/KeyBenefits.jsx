@@ -2,7 +2,7 @@ import {KeyBenefitsStyle} from "./Style";
 
 const KeyBenefits = () => (
     <KeyBenefitsStyle>
-        <div>
+        <div className={"container"}>
             <div className="Titulo">Key Benefits of Working with Brazilroute</div>
             <div className={"linha"}></div>
 

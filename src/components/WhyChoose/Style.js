@@ -10,11 +10,12 @@ const WhyChooseStyle = styled.header`
     margin: 0;
     align-items: center;
     justify-content: center;
-    position: relative;
 
     .container {
         width: 100%;
         margin: 0 150px;
+        max-width: 1440px;
+        position: relative;
     }
 
     .Titulo {
@@ -45,6 +46,7 @@ const WhyChooseStyle = styled.header`
         position: absolute;
         right: 0;
         bottom: 0;
+        max-width: 1440px;
     }
 `
 export {WhyChooseStyle}

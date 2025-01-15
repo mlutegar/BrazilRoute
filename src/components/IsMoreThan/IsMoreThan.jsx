@@ -27,7 +27,7 @@ const BolinhaEsquerdaSvg = () => (
 
 const IsMoreThan = () => (
     <IsMoreThanStyle>
-        <div>
+        <div className={"container"}>
             <div className="circulo-esquerda">
                 <BolinhaEsquerdaSvg/>
             </div>

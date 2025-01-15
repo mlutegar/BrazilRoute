@@ -8,9 +8,17 @@ const IsMoreThanStyle = styled.header`
     display: flex;
     flex-direction: row;
     margin: 0;
-    align-items: center;
-    justify-content: center;
-    position: relative;
+    
+    .container {
+        width: 100%;
+        margin: 0 auto;
+        max-width: 1440px;
+        position: relative;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+    }
 
     .circulo-direita, .circulo-esquerda {
         position: absolute;

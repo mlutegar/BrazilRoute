@@ -8,7 +8,7 @@ const BannerStyle = styled.header`
     background-repeat: no-repeat;
     background-position: center;
     color: #FFFECD;
-    padding-left: 150px;
+    padding: 0 150px;
     display: flex;
     flex-direction: row;
     margin: 0;
@@ -16,6 +16,14 @@ const BannerStyle = styled.header`
     justify-content: space-between;
 
     animation: fadeIn 1.5s ease-in-out;
+
+    .conteudo-banner {
+        max-width: 1440px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+    }
 
     @keyframes fadeIn {
         from {

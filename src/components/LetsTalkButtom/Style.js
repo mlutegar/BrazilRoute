@@ -39,8 +39,6 @@ const LetsTalkButtomStyle = styled.header`
     
     .icon {
         padding-left: 10px;
-        width: 36.192px;
-        height: 36.192px;
         flex-shrink: 0;
     }
     

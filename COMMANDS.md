@@ -15,7 +15,7 @@ $ git add .
 Comando para fazer commit dos arquivos:
 
 ```bash
-$ git commit -m "feat: Adicionando seção OurService" --no-verify
+$ git commit -m "feat: Adicionando responsividade telas grandes" --no-verify
 ```
 
 Comando para fazer push dos arquivos:
@@ -80,4 +80,22 @@ Para rodar o projeto localmente:
 
 ```bash
 $ npm run start-windows
+```
+
+Para criar um novo componente:
+
+```bash
+$ npm run generate component components/ComponentName
+```
+
+Para criar um novo container:
+
+```bash
+$ npm run generate container containers/ContainerName
+```
+
+Para gera a build do projeto:
+
+```bash
+$ npm run build
 ```

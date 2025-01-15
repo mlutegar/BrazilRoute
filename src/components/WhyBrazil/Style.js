@@ -10,7 +10,18 @@ const WhyBrazilStyle = styled.header`
     flex-direction: row;
     margin: 0;
     position: relative;
-
+    
+    .conteudo-brazil{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        max-width: 1440px;
+        margin: 0 auto;
+        position: relative;
+    }
+    
     .pngBrasil{
         position: absolute;
         left: 0;

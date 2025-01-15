@@ -26,10 +26,11 @@ const FundoSVG = () => (
 
 const WhyChoose = () => (
     <WhyChooseStyle>
-        <div className={"svg"}>
-            <FundoSVG/>
-        </div>
         <div className={"container"}>
+            <div className={"svg"}>
+                <FundoSVG/>
+            </div>
+
             <div className={"Titulo"}>Why Choose Brazilroute?</div>
             <div className="CardsContainer">
                 <WhyChooseCard

@@ -12,6 +12,13 @@ const KeyBenefitsStyle = styled.header`
     justify-content: flex-start;
     position: relative;
 
+    .container{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        max-width: 1440px;
+        margin: 0 auto;
+    }
 
     .Titulo {
         display: flex;
@@ -55,7 +62,6 @@ const KeyBenefitsStyle = styled.header`
     .linha {
         border-top: 2px solid #E1D885;
         margin: 0;
-        width: 66vw;
         padding-left: 150px;
         padding-right: 150px;
         padding-bottom: 30px;

@@ -3,7 +3,7 @@ import {BannerStyle} from "./Style";
 
 const Banner = () => (
     <BannerStyle>
-        <div>
+        <div className={"conteudo-banner"}>
             <div className={"Titulo"}>
                 Scale Your Tech <br/>
                 Business in Brazil with <br/>
