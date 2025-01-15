@@ -37,13 +37,21 @@ const OurServicesStyle = styled.div`
     }
 
     .link span {
-        margin-right: 8px;
         font-weight: bold;
+        padding-bottom: 30px;
     }
 
     .link-icone {
         width: 16px;
         height: 16px;
+    }
+    
+    .link svg {
+        transition: transform 0.3s ease, box-shadow 0.3s ease, background 0.3s ease;
+
+        &:hover {
+            transform: scale(1.2);
+        }
     }
 
     .grupo-cards {

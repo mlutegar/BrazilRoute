@@ -2,10 +2,6 @@ import {WhyBrazilStyle} from "./Style";
 import WhyBrazilCard from "../WhyBrazilCard/WhyBrazilCard";
 import React from "react";
 
-const BrasilPNG = () => (
-    <img src="imagens/brasil.png" alt="Brasil"/>
-);
-
 const WhyBrazil = () => (
     <WhyBrazilStyle>
         <div className={"conteudo-brazil"}>
@@ -106,5 +102,9 @@ const WhyBrazil = () => (
         </div>
     </WhyBrazilStyle>
 )
+
+const BrasilPNG = () => (
+    <img src="imagens/brasil.png" alt="Brasil"/>
+);
 
 export default WhyBrazil;

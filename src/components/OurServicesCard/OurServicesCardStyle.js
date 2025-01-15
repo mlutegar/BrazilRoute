@@ -7,9 +7,17 @@ const OurServicesCardStyle = styled.div`
     width: 200px;
     height: 300px;
     text-align: center;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    animation: zoomIn 0.5s ease;
+    z-index: 10;
+
+    &:hover {
+        transform: translateY(-10px);
+    }
 
     .icone {
+        padding-top: 20px;
         margin-bottom: 15px;
         font-size: 40px;
         color: #ffffff;
@@ -18,7 +26,6 @@ const OurServicesCardStyle = styled.div`
     .tituloCard {
         color: #FFFECD;
         text-align: center;
-        font-family: Inter;
         font-size: 1.125rem;
         font-style: normal;
         font-weight: 700;
