@@ -11,21 +11,7 @@ const IsMoreThanStyle = styled.header`
     align-items: center;
     justify-content: center;
     position: relative;
-
-    .circulo-direita, .circulo-esquerda {
-        position: absolute;
-    }
-
-    .circulo-direita {
-        bottom: 0;
-        right: 0;
-    }
     
-    .circulo-esquerda {
-        top: 0;
-        left: 0;
-    }
-
     .titulo {
         font-size: 1.8em;
         font-weight: bold;

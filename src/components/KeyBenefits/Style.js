@@ -4,7 +4,6 @@ import styled from "styled-components"
 
 const KeyBenefitsStyle = styled.header`
     background: #4C9F7E;
-    width: 100%;
     display: flex;
     flex-direction: row;
     margin: 0;

@@ -14,7 +14,8 @@ const WhatsSetsCardStyle = styled.div`
     background: #4C6A9F;
     
     &:hover {
-        transform: translateY(-10px); 
+        transform: translateY(-10px);
+        background: #6991D7;
     }
     
     .content{
@@ -25,8 +26,10 @@ const WhatsSetsCardStyle = styled.div`
     }
 
     .icon {
-        font-size: 36px;
-        margin-bottom: 16px;
+        width: 189px;
+        height: 189px;
+        flex-shrink: 0;
+        object-fit: cover;
     }
 
     .title {
@@ -45,6 +48,12 @@ const WhatsSetsCardStyle = styled.div`
         font-style: normal;
         font-weight: 400;
         line-height: normal;
+    }
+    
+    svg {
+        width: 189px;
+        height: 189px;
+        flex-shrink: 0;
     }
 
     /* Animação ao carregar o card */
