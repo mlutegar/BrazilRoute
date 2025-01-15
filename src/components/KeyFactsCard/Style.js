@@ -1,16 +1,27 @@
 import styled from "styled-components";
 
 const WhatsSetsCardStyle = styled.div`
-    border-radius: 10px;
     padding: 20px;
     text-align: center;
     color: #fff;
-    width: 300px;
+    width: 600px;
+    height: 200px;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     animation: zoomIn 0.5s ease;
 
+    display: flex;
+    border-radius: 1.25rem;
+    background: #4C6A9F;
+    
     &:hover {
         transform: translateY(-10px); 
+    }
+    
+    .content{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
     }
 
     .icon {
@@ -20,7 +31,7 @@ const WhatsSetsCardStyle = styled.div`
 
     .title {
         color: #faffca;
-        text-align: center;
+        text-align: left;
         font-size: 24px;
         font-style: normal;
         font-weight: 900;
@@ -29,7 +40,7 @@ const WhatsSetsCardStyle = styled.div`
 
     .text {
         color: #fff;
-        text-align: center;
+        text-align: left;
         font-size: 15px;
         font-style: normal;
         font-weight: 400;

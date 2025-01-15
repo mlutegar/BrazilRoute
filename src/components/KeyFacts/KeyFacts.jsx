@@ -32,9 +32,11 @@ const KeyFacts = () => (<IsMoreThanStyle>
         <div className="circulo-direita">
             <BolinhaDireitaSvg/>
         </div>
-        <div className="titulo-superior">
-            {" "}About Brazil's Tech Market
-            <span className="titulo-destaque">Key Facts</span>
+        <div className={"titulo"}>
+            <div className="titulo-superior">
+                <span className="titulo-destaque">Key Facts</span>
+                {" "}About Brazil's Tech Market
+            </div>
         </div>
         <div className={"Conteudo"}>
             <div className={"Coluna1"}>

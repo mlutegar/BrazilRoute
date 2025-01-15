@@ -6,8 +6,10 @@ const KeyFactsCard = ({ icon, title, text }) => {
     return (
         <WhatsSetsCardStyle>
             <div className="icon">{icon}</div>
-            <h3 className="title">{title}</h3>
-            <p className="text">{text}</p>
+            <div className="content">
+                <h3 className="title">{title}</h3>
+                <p className="text">{text}</p>
+            </div>
         </WhatsSetsCardStyle>
     );
 };

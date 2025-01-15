@@ -35,17 +35,28 @@ const IsMoreThanStyle = styled.header`
         display: flex;
         flex-direction: column;
         align-items: center;
-        padding-top: 45px;
+        padding-top: 65px;
+    }
+    
+    .Conteudo{
+        display: flex;
+        margin: 60px 0;
+        gap: 60px;
     }
 
-    .titulo-superior,
-    .titulo-inferior {
-        margin-bottom: 5px;
+    .titulo-superior {
+        color: #FAFFCA;
     }
 
     .titulo-destaque {
         color: #AAF5D7;
         font-weight: bold;
+    }
+    
+    .Coluna1, .Coluna2{
+        display: flex;
+        flex-direction: column;
+        gap: 60px;
     }
 
     .Subtitulo {
