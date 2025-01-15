@@ -15,7 +15,7 @@ $ git add .
 Comando para fazer commit dos arquivos:
 
 ```bash
-$ git commit -m "fix: Arrumando os cards do Why" --no-verify
+$ git commit -m "feat: Adicionando KeyFacts" --no-verify
 ```
 
 Comando para fazer push dos arquivos:
