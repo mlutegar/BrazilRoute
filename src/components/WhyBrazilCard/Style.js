@@ -5,8 +5,7 @@ const WhyBrazilCardStyle = styled.div`
     background: #4C9F7E;
     padding: 20px;
     text-align: center;
-    width: 334px;
-    height: 298px;
+    width: 264px;
     flex-shrink: 0;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     animation: zoomIn 0.5s ease;
@@ -21,7 +20,6 @@ const WhyBrazilCardStyle = styled.div`
         width: 70px;
         height: 70px;
         flex-shrink: 0;
-        padding-top: 30px;
     }
 
     .title {

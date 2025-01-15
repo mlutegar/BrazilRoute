@@ -4,24 +4,28 @@ import WhyChooseCard from "../WhyChooseCard/WhyChooseCard";
 import React from "react";
 
 const FundoSVG = () => (
-    <svg width="657" height="497" viewBox="0 0 657 497" fill="none" xmlns="http://www.w3.org/2000/svg">
-        <ellipse cx="509.5" cy="180.916" rx="50.6058" ry="50.9163" fill="#FFFECD" fill-opacity="0.57"/>
-        <ellipse cx="662.394" cy="180.916" rx="50.6058" ry="50.9163" fill="#FFFECD" fill-opacity="0.57"/>
-        <ellipse cx="509.5" cy="313.082" rx="50.6058" ry="50.9163" fill="#FFFECD" fill-opacity="0.57"/>
-        <ellipse cx="662.394" cy="313.082" rx="50.6058" ry="50.9163" fill="#FFFECD" fill-opacity="0.57"/>
-        <ellipse cx="356.606" cy="445.248" rx="50.6058" ry="50.9163" fill="#FFFECD" fill-opacity="0.57"/>
-        <ellipse cx="509.5" cy="445.248" rx="50.6058" ry="50.9163" fill="#FFFECD" fill-opacity="0.57"/>
-        <ellipse cx="662.394" cy="445.248" rx="50.6058" ry="50.9163" fill="#FFFECD" fill-opacity="0.57"/>
-        <ellipse cx="50.6058" cy="50.9163" rx="50.6058" ry="50.9163" fill="#4C6A9F" fill-opacity="0.57"/>
-        <ellipse cx="203.5" cy="50.9163" rx="50.6058" ry="50.9163" fill="#4C6A9F" fill-opacity="0.57"/>
-        <ellipse cx="356.394" cy="50.9163" rx="50.6058" ry="50.9163" fill="#4C6A9F" fill-opacity="0.57"/>
-        <ellipse cx="50.6058" cy="183.082" rx="50.6058" ry="50.9163" fill="#4C6A9F" fill-opacity="0.57"/>
-        <ellipse cx="203.5" cy="183.082" rx="50.6058" ry="50.9163" fill="#4C6A9F" fill-opacity="0.57"/>
-        <ellipse cx="356.394" cy="183.082" rx="50.6058" ry="50.9163" fill="#4C6A9F" fill-opacity="0.57"/>
-        <ellipse cx="50.6058" cy="315.248" rx="50.6058" ry="50.9163" fill="#4C6A9F" fill-opacity="0.57"/>
-        <ellipse cx="203.5" cy="315.248" rx="50.6058" ry="50.9163" fill="#4C6A9F" fill-opacity="0.57"/>
-        <ellipse cx="356.394" cy="315.248" rx="50.6058" ry="50.9163" fill="#4C6A9F" fill-opacity="0.57"/>
+
+    <svg width="713" height="497" viewBox="0 0 713 497" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <ellipse cx="356.606" cy="180.916" rx="50.6058" ry="50.9163" fill="#F7F7DB"/>
+        <ellipse cx="509.5" cy="180.916" rx="50.6058" ry="50.9163" fill="#F7F7DB"/>
+        <ellipse cx="662.394" cy="180.916" rx="50.6058" ry="50.9163" fill="#F7F7DB"/>
+        <ellipse cx="356.606" cy="313.082" rx="50.6058" ry="50.9163" fill="#F7F7DB"/>
+        <ellipse cx="509.5" cy="313.082" rx="50.6058" ry="50.9163" fill="#F7F7DB"/>
+        <ellipse cx="662.394" cy="313.082" rx="50.6058" ry="50.9163" fill="#F7F7DB"/>
+        <ellipse cx="356.606" cy="445.248" rx="50.6058" ry="50.9163" fill="#F7F7DB"/>
+        <ellipse cx="509.5" cy="445.248" rx="50.6058" ry="50.9163" fill="#F7F7DB"/>
+        <ellipse cx="662.394" cy="445.248" rx="50.6058" ry="50.9163" fill="#F7F7DB"/>
+        <ellipse cx="50.6058" cy="50.9163" rx="50.6058" ry="50.9163" fill="#91A2C1"/>
+        <ellipse cx="203.5" cy="50.9163" rx="50.6058" ry="50.9163" fill="#91A2C1"/>
+        <ellipse cx="356.394" cy="50.9163" rx="50.6058" ry="50.9163" fill="#91A2C1"/>
+        <ellipse cx="50.6058" cy="183.082" rx="50.6058" ry="50.9163" fill="#91A2C1"/>
+        <ellipse cx="203.5" cy="183.082" rx="50.6058" ry="50.9163" fill="#91A2C1"/>
+        <ellipse cx="356.394" cy="183.082" rx="50.6058" ry="50.9163" fill="#91A2C1"/>
+        <ellipse cx="50.6058" cy="315.248" rx="50.6058" ry="50.9163" fill="#91A2C1"/>
+        <ellipse cx="203.5" cy="315.248" rx="50.6058" ry="50.9163" fill="#91A2C1"/>
+        <ellipse cx="356.394" cy="315.248" rx="50.6058" ry="50.9163" fill="#91A2C1"/>
     </svg>
+
 );
 
 const WhyChoose = () => (

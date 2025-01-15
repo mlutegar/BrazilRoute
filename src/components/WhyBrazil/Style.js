@@ -10,12 +10,13 @@ const WhyBrazilStyle = styled.header`
     flex-direction: row;
     margin: 0;
     position: relative;
+    overflow: hidden;
     
     .conteudo-brazil{
         display: flex;
         flex-direction: row;
         justify-content: space-between;
-        align-items: center;
+        align-items: flex-start;
         width: 100%;
         max-width: 1440px;
         margin: 0 auto;
@@ -24,15 +25,14 @@ const WhyBrazilStyle = styled.header`
     
     .pngBrasil{
         position: absolute;
-        left: 0;
-        top: 0;
+        top: -50px;
+        left: -150px;
     }
     
     .textContent{
         display: flex;
         flex-direction: column;
         align-content: flex-start;
-        padding-left: 150px;
     }
     .Titulo {
         color: #FFFECD;
@@ -62,7 +62,6 @@ const WhyBrazilStyle = styled.header`
         justify-content: center;
         padding-bottom: 3.8em;
         padding-top: 5em;
-        padding-right: 150px;
     }
 `
 export {WhyBrazilStyle}

@@ -1,10 +1,14 @@
 import styled from "styled-components";
 
 const OurServicesStyle = styled.div`
+    padding: 40px 150px;
+    background-color: #f9f9f9;
+    
     .secao {
-        padding: 40px 20px;
-        background-color: #f9f9f9;
         text-align: center;
+        width: 100%;
+        margin: 0 auto;
+        max-width: 1440px;
     }
 
     .titulo {
@@ -16,7 +20,7 @@ const OurServicesStyle = styled.div`
     .grupo {
         margin-bottom: 40px;
         display: flex;
-        justify-content: center;
+        justify-content: space-around;
         align-items: center;
     }
 

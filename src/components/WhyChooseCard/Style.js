@@ -9,6 +9,7 @@ const WhyChooseCardStyle = styled.div`
     width: 300px;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     animation: zoomIn 0.5s ease;
+z-index: 2;
 
     &:hover {
         transform: translateY(-10px); 
@@ -24,6 +25,7 @@ const WhyChooseCardStyle = styled.div`
     .content {
         display: flex;
         flex-direction: column;
+        justify-content: flex-start;
     }
 
     .title {
@@ -46,6 +48,7 @@ const WhyChooseCardStyle = styled.div`
         font-weight: 400;
         line-height: normal;
         width: 400px;
+        text-align: left;
     }
 
     /* Animação ao carregar o card */
