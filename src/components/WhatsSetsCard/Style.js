@@ -7,7 +7,7 @@ const WhatsSetsCardStyle = styled.div`
     color: #fff;
     width: 300px;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
-    animation: zoomIn 0.5s ease;
+    animation: zoomIn 4s ease;
 
     &:hover {
         transform: translateY(-10px); 
