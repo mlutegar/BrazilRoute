@@ -11,6 +11,7 @@ const WhyBrazilCardStyle = styled.div`
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     animation: zoomIn 0.5s ease;
     box-shadow: 30px 30px 0px #FFFECD;
+    z-index: 10;
 
     &:hover {
         transform: translateY(-10px); 

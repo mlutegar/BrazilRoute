@@ -1,10 +1,17 @@
-import {Link} from "react-router-dom";
 import {WhyBrazilStyle} from "./Style";
 import WhyBrazilCard from "../WhyBrazilCard/WhyBrazilCard";
 import React from "react";
 
+const BrasilPNG = () => (
+    <img src="imagens/brasil.png" alt="Brasil"/>
+);
+
 const WhyBrazil = () => (
     <WhyBrazilStyle>
+        <div className={"pngBrasil"}>
+            <BrasilPNG/>
+        </div>
+
         <div className={"textContent"}>
             <div className="Titulo">
                 Why Brazil?

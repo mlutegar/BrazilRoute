@@ -11,6 +11,11 @@ const WhyBrazilStyle = styled.header`
     margin: 0;
     position: relative;
 
+    .pngBrasil{
+        position: absolute;
+        left: 0;
+        top: 0;
+    }
     
     .textContent{
         display: flex;
