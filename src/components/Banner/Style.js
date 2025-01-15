@@ -29,9 +29,11 @@ a {
     }
 }
 .Titulo {
-    font-size: 48px;
+    color: #FFFECD;
+    font-size: 52px;
+    font-style: normal;
     font-weight: 900;
-    margin: 0;
+    line-height: normal;
     padding-top: 2em;
     padding-bottom: 1em;
 }
@@ -40,6 +42,14 @@ a {
     font-weight: normal;
     margin: 0;
     padding-bottom: 4em;
+}
+
+b {
+    color: #FFFECD;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
 }
 `
 
