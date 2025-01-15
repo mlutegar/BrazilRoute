@@ -8,7 +8,7 @@ const WhatsSetsCardStyle = styled.div`
     height: 200px;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     animation: zoomIn 0.5s ease;
-
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
     display: flex;
     border-radius: 1.25rem;
     background: #4C6A9F;

@@ -11,11 +11,22 @@ const LetsTalkButtomStyle = styled.header`
         border-radius: 20px;
         background: #4C6A9F;
         border-style: none;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+        transition: transform 0.3s ease, box-shadow 0.3s ease, background 0.3s ease;
+        cursor: pointer;
+    }
 
-        &:hover {
-            background: #3A5480; 
-            transform: scale(1.05); 
-        }
+    button:hover {
+        background: #4C6EA3; 
+        transform: scale(1.1); 
+        box-shadow: 0 8px 20px rgba(74, 144, 226, 0.5); 
+    }
+
+   
+    button:active {
+        transform: scale(0.95); 
+        box-shadow: 0 4px 10px rgba(74, 144, 226, 0.3); 
+    }
     }
 
     a {
