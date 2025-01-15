@@ -1,5 +1,11 @@
 # GIT
 
+Comando para puxar alterações do repositório:
+
+```bash
+$ git pull
+```
+
 Comando para adicionar todos os arquivos:
 
 ```bash
@@ -9,7 +15,7 @@ $ git add .
 Comando para fazer commit dos arquivos:
 
 ```bash
-$ git commit -m "feat: adicionando bolinhas" --no-verify
+$ git commit -m "feat: colocando fundo de Why Choose" --no-verify
 ```
 
 Comando para fazer push dos arquivos:
