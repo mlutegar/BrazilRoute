@@ -9,7 +9,7 @@ $ git add .
 Comando para fazer commit dos arquivos:
 
 ```bash
-$ git commit -m "feat: adicionando o header" --no-verify
+$ git commit -m "feat: adicionando bolinhas" --no-verify
 ```
 
 Comando para fazer push dos arquivos:
