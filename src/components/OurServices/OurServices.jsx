@@ -1,8 +1,8 @@
 import React from "react";
-import Style from "./SectionStyle";
+import Style from "./OurServicesStyle";
 import Card from "./Card";
 
-const Section = () => {
+const OurServices = () => {
   return (
     <Style>
       <section className="secao">
@@ -66,4 +66,4 @@ const Section = () => {
   );
 };
 
-export default Section;
+export default OurServices;
