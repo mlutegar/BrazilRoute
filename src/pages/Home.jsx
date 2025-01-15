@@ -4,6 +4,7 @@ import IsMoreThan from "../components/IsMoreThan/IsMoreThan";
 import WhatsSets from "../components/WhatsSets/WhatsSets";
 import WhyChoose from "../components/WhyChoose/WhyChoose";
 import WhyBrazil from "../components/WhyBrazil/WhyBrazil";
+import KeyFacts from "../components/KeyFacts/KeyFacts";
 
 const Home = () => {
   return (
@@ -13,6 +14,7 @@ const Home = () => {
         <WhatsSets/>
         <WhyChoose/>
         <WhyBrazil/>
+        <KeyFacts/>
     </Base>
   )
 }
