@@ -12,17 +12,18 @@ const Top = styled.header`
     position: sticky;
     top: 0;
     z-index: 1000;
-    opacity: ${(props) => (props.isScrolled ? 0.8 : 1)}; 
-    transition: opacity 0.3s ease; 
+    opacity: ${(props) => (props.isScrolled ? 0.8 : 1)};
+    transition: opacity 0.3s ease;
 
     .menu a {
+        color: black;
         text-align: center;
         padding: .3em;
         margin: 0 .7em;
         min-width: 5em;
         text-decoration: none !important;
-        font-weight: bold;
+        font-weight: 700;
     }
 `;
 
-export { Top };
+export {Top};

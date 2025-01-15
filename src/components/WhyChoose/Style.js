@@ -40,8 +40,8 @@ const WhyChooseStyle = styled.header`
         padding-bottom: 5em;
         flex-direction: column;
     }
-    
-    .svg{
+
+    .svg {
         position: absolute;
         right: 0;
         bottom: 0;

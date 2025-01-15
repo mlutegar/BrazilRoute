@@ -29,7 +29,7 @@ const WhyBrazilStyle = styled.header`
         font-style: normal;
         font-weight: 900;
         line-height: normal;
-        padding-top: 3em;
+        padding-top: 4.5em;
         padding-bottom: 1.5em;
         
     }
@@ -49,7 +49,7 @@ const WhyBrazilStyle = styled.header`
         column-gap: 100px;
         row-gap: 50px;
         justify-content: center;
-        padding-bottom: 5em;
+        padding-bottom: 3.8em;
         padding-top: 5em;
         padding-right: 150px;
     }
