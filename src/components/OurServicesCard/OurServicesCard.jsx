@@ -5,7 +5,7 @@ const OurServicesCard = ({ icone, titulo, descricao, cor }) => {
   return (
     <CardStyle cor={cor}>
       <div className="icone">{icone}</div>
-      <h3 className="titulo">{titulo}</h3>
+      <h3 className="tituloCard">{titulo}</h3>
       <p className="descricao">{descricao}</p>
     </CardStyle>
   );

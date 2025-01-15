@@ -7,6 +7,7 @@ import WhyBrazil from "../components/WhyBrazil/WhyBrazil";
 import KeyFacts from "../components/KeyFacts/KeyFacts";
 import KeyBenefits from "../components/KeyBenefits/KeyBenefits";
 import ReadTo from "../components/ReadyTo/ReadyTo";
+import OurServices from "../components/OurServices/OurServices";
 
 const Home = () => {
   return (
@@ -16,6 +17,7 @@ const Home = () => {
         <WhatsSets/>
         <WhyChoose/>
         <WhyBrazil/>
+        <OurServices/>
         <KeyBenefits/>
         <KeyFacts/>
         <ReadTo/>
