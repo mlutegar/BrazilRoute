@@ -15,7 +15,7 @@ $ git add .
 Comando para fazer commit dos arquivos:
 
 ```bash
-$ git commit -m "feat: colocando fundo de Why Choose" --no-verify
+$ git commit -m "fix: Arrumando Bolinhas da introdução" --no-verify
 ```
 
 Comando para fazer push dos arquivos:

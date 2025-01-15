@@ -12,48 +12,18 @@ const IsMoreThanStyle = styled.header`
     justify-content: center;
     position: relative;
 
-    .circulo-esquerda-grande,
-    .circulo-esquerda-pequeno {
+    .circulo-direita, .circulo-esquerda {
         position: absolute;
-        border-radius: 50%;
-        background-color: #326b54;
     }
 
-    .circulo-esquerda-grande {
-        border: 40px solid #779172;
-        top: 20%;
-        left: 0;
-        width: 100px;
-        height: 100px;
-    }
-
-    .circulo-esquerda-pequeno {
-        top: 5%;
-        left: 5%;
-        width: 40px;
-        height: 40px;
-    }
-
-    .circulo-direita-grande,
-    .circulo-direita-pequeno {
-        position: absolute;
-        border-radius: 50%;
-        background-color: #779172;;
-    }
-
-    .circulo-direita-grande {
-        bottom: 20%;
+    .circulo-direita {
+        bottom: 0;
         right: 0;
-        width: 100px;
-        height: 100px;
-        border: 40px solid #325661;
     }
-
-    .circulo-direita-pequeno {
-        bottom: 5%;
-        right: 5%;
-        width: 40px;
-        height: 40px;
+    
+    .circulo-esquerda {
+        top: 0;
+        left: 0;
     }
 
     .titulo {
