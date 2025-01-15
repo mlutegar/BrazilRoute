@@ -36,6 +36,18 @@ const IsMoreThanStyle = styled.header`
         flex-direction: column;
         align-items: center;
         padding-top: 45px;
+        animation: fadeIn 2s ease forwards;
+        opacity: 0; /* Inicialmente invisível */
+        animation-delay: 1s;
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
     }
 
     .titulo-superior,
@@ -57,6 +69,9 @@ const IsMoreThanStyle = styled.header`
         font-style: normal;
         font-weight: 400;
         line-height: normal;
+        animation: fadeIn 2s ease forwards;
+        opacity: 0; /* Inicialmente invisível */
+        animation-delay: 1.5s;
     }
 
     .botao {
@@ -64,6 +79,9 @@ const IsMoreThanStyle = styled.header`
         align-items: center;
         justify-content: center;
         padding-bottom: 4em;
+        animation: fadeIn 2s ease forwards;
+        opacity: 0; /* Inicialmente invisível */
+        animation-delay: 2s;
     }
 `
 export {IsMoreThanStyle}
