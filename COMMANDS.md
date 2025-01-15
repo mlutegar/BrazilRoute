@@ -64,6 +64,12 @@ $ vtex deploy {appvendor}.{appname}@{appversion}
 
 # React
 
+Para instalar as dependências:
+
+```bash
+$ npm install
+```
+
 Para rodar o projeto localmente:
 
 ```bash
