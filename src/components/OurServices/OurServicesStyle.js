@@ -51,6 +51,7 @@ const OurServicesStyle = styled.div`
 
         &:hover {
             transform: scale(1.2);
+            cursor: pointer;
         }
     }
 
