@@ -11,7 +11,7 @@ const IsMoreThanStyle = styled.header`
     align-items: center;
     justify-content: center;
     position: relative;
-    
+
     .titulo {
         font-size: 1.8em;
         font-weight: bold;
@@ -23,11 +23,16 @@ const IsMoreThanStyle = styled.header`
         align-items: center;
         padding-top: 65px;
     }
-    
-    .Conteudo{
+
+    .Conteudo {
         display: flex;
         margin: 60px 0;
         gap: 60px;
+        row-gap: 60px;
+        column-gap: 60px;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: center;
     }
 
     .titulo-superior {
@@ -38,8 +43,8 @@ const IsMoreThanStyle = styled.header`
         color: #AAF5D7;
         font-weight: bold;
     }
-    
-    .Coluna1, .Coluna2{
+
+    .Coluna1, .Coluna2 {
         display: flex;
         flex-direction: column;
         gap: 60px;

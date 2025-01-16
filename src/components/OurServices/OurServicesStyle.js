@@ -22,6 +22,7 @@ const OurServicesStyle = styled.div`
         display: flex;
         justify-content: space-around;
         align-items: center;
+flex-wrap: wrap;
     }
 
     .link {
@@ -59,6 +60,7 @@ const OurServicesStyle = styled.div`
         display: flex;
         justify-content: center;
         gap: 20px;
+        flex-wrap: wrap;
     }
 `;
 

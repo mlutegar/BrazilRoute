@@ -11,30 +11,33 @@ const WhyBrazilStyle = styled.header`
     margin: 0;
     position: relative;
     overflow: hidden;
-    
-    .conteudo-brazil{
+
+    .conteudo-brazil {
         display: flex;
         flex-direction: row;
-        justify-content: space-between;
+        justify-content: flex-start;
         align-items: flex-start;
         width: 100%;
         max-width: 1440px;
         margin: 0 auto;
         position: relative;
         padding-left: 150px;
+        gap: 100px;
+        flex-wrap: wrap;
     }
-    
-    .pngBrasil{
+
+    .pngBrasil {
         position: absolute;
         top: -50px;
         left: -150px;
     }
-    
-    .textContent{
+
+    .textContent {
         display: flex;
         flex-direction: column;
         align-content: flex-start;
     }
+
     .Titulo {
         color: #FFFECD;
         font-size: 32px;
@@ -43,7 +46,7 @@ const WhyBrazilStyle = styled.header`
         line-height: normal;
         padding-top: 4.5em;
         padding-bottom: 1.5em;
-        
+
     }
 
     .Texto {
@@ -54,9 +57,10 @@ const WhyBrazilStyle = styled.header`
         line-height: normal;
         width: 385px;
     }
+
     .CardsContainer {
         display: grid;
-        grid-template-columns: repeat(2, 1fr); 
+        grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(2, auto);
         column-gap: 100px;
         row-gap: 50px;

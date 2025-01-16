@@ -8,7 +8,7 @@ const KeyBenefitsStyle = styled.header`
     flex-direction: row;
     margin: 0;
     align-items: center;
-    padding-left: 150px;
+    padding: 0 150px;
     justify-content: flex-start;
     position: relative;
 

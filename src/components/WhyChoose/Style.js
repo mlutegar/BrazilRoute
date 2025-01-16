@@ -48,5 +48,9 @@ const WhyChooseStyle = styled.header`
         bottom: 0;
         max-width: 1440px;
     }
+    
+    @media (max-width: 1440px){
+        .svg{display: none;}
+    }
 `
 export {WhyChooseStyle}
