@@ -7,7 +7,7 @@ const OurServicesCardStyle = styled.div`
     width: 200px;
     height: 300px;
     text-align: center;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     animation: zoomIn 0.5s ease;
     z-index: 10;
