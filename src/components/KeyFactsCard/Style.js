@@ -12,6 +12,7 @@ const WhatsSetsCardStyle = styled.div`
     display: flex;
     border-radius: 1.25rem;
     background: #4C6A9F;
+    z-index: 20;
     
     &:hover {
         transform: translateY(-10px);

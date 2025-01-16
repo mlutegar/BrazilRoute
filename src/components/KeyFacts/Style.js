@@ -11,6 +11,18 @@ const IsMoreThanStyle = styled.header`
     align-items: center;
     justify-content: center;
     position: relative;
+    
+    .svgD{
+        position: absolute;
+        top: 150px;
+        right: -100px;
+    }
+
+    .svgE{
+        position: absolute;
+        bottom: 150px;
+        left: -100px;
+    }
 
     .titulo {
         font-size: 1.8em;
@@ -33,6 +45,7 @@ const IsMoreThanStyle = styled.header`
         flex-wrap: wrap;
         flex-direction: row;
         justify-content: center;
+        position: relative;
     }
 
     .titulo-superior {

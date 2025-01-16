@@ -4,6 +4,30 @@ import {LetsTalkButtomStyle} from "../LetsTalkButtom/Style";
 import LetsTalkButtom from "../LetsTalkButtom/LetsTalkButtom";
 import KeyFactsCard from "../KeyFactsCard/KeyFactsCard";
 
+const EstiloDireitaSVG = () => (
+    <svg width="299" height="269" viewBox="0 0 299 269" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <ellipse cx="149.5" cy="37.4053" rx="37.1772" ry="37.4053" fill="#FFFECD" fill-opacity="0.46"/>
+        <ellipse cx="261.823" cy="37.4053" rx="37.1772" ry="37.4053" fill="#FFFECD" fill-opacity="0.46"/>
+        <ellipse cx="37.1772" cy="134.5" rx="37.1772" ry="37.4053" fill="#FFFECD" fill-opacity="0.46"/>
+        <ellipse cx="149.5" cy="134.5" rx="37.1772" ry="37.4053" fill="#FFFECD" fill-opacity="0.46"/>
+        <ellipse cx="261.823" cy="134.5" rx="37.1772" ry="37.4053" fill="#FFFECD" fill-opacity="0.46"/>
+        <ellipse cx="149.5" cy="231.595" rx="37.1772" ry="37.4053" fill="#FFFECD" fill-opacity="0.46"/>
+        <ellipse cx="261.823" cy="231.595" rx="37.1772" ry="37.4053" fill="#FFFECD" fill-opacity="0.46"/>
+    </svg>
+)
+
+const EstiloEsquerdaSVG = () => (
+    <svg width="300" height="269" viewBox="0 0 300 269" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <ellipse cx="37.1772" cy="37.4053" rx="37.1772" ry="37.4053" fill="#FFFECD" fill-opacity="0.46"/>
+        <ellipse cx="149.532" cy="37.4053" rx="37.1772" ry="37.4053" fill="#FFFECD" fill-opacity="0.46"/>
+        <ellipse cx="37.1772" cy="134.216" rx="37.1772" ry="37.4053" fill="#FFFECD" fill-opacity="0.46"/>
+        <ellipse cx="261.886" cy="134.216" rx="37.1772" ry="37.4053" fill="#FFFECD" fill-opacity="0.46"/>
+        <ellipse cx="149.532" cy="134.216" rx="37.1772" ry="37.4053" fill="#FFFECD" fill-opacity="0.46"/>
+        <ellipse cx="37.1772" cy="231.026" rx="37.1772" ry="37.4053" fill="#FFFECD" fill-opacity="0.46"/>
+        <ellipse cx="149.532" cy="231.026" rx="37.1772" ry="37.4053" fill="#FFFECD" fill-opacity="0.46"/>
+    </svg>
+)
+
 const KeyFacts = () => (<IsMoreThanStyle>
     <div>
         <div className={"titulo"}>
@@ -13,6 +37,15 @@ const KeyFacts = () => (<IsMoreThanStyle>
             </div>
         </div>
         <div className={"Conteudo"}>
+
+            <div className="svgD">
+                <EstiloDireitaSVG/>
+            </div>
+
+            <div className="svgE">
+                <EstiloEsquerdaSVG/>
+            </div>
+
             <div className={"Coluna1"}>
                 <KeyFactsCard
                     icon={

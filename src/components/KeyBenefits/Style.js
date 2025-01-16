@@ -11,8 +11,15 @@ const KeyBenefitsStyle = styled.header`
     padding: 0 150px;
     justify-content: flex-start;
     position: relative;
+    
+    .svg{
+        position: absolute;
+        right: 0;
+        top: 20px;
+    }
 
     .container{
+        position: relative;
         display: flex;
         flex-direction: column;
         width: 100%;
