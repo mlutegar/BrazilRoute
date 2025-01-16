@@ -19,6 +19,18 @@ const Top = styled.header`
         max-width: 1440px;
     }
     
+    .menu-mobile{
+        display: none;
+        background: #333333;
+    }
+    
+    .menu-mobile.aberto{
+        display: flex;
+        width: 100vw;
+        height: 100vh;
+        
+    }
+    
     .menu a {
         text-align: center;
         padding: .3em;
