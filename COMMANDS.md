@@ -15,7 +15,7 @@ $ git add .
 Comando para fazer commit dos arquivos:
 
 ```bash
-$ git commit -m "feat: Adicionando excel de unidades" --no-verify
+$ git commit -m "feat: Adicionando pointer no our services" --no-verify
 ```
 
 Comando para fazer push dos arquivos:
