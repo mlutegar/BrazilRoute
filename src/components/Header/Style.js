@@ -20,13 +20,22 @@ const Top = styled.header`
     }
     
     .menu a {
-        color: black;
         text-align: center;
         padding: .3em;
         margin: 0 .7em;
         min-width: 5em;
         text-decoration: none !important;
+        color: #000;;
+        font-size: 16px;
+        font-style: normal;
         font-weight: 700;
+        line-height: normal;
+        transition: color 0.3s ease, transform 0.3s ease; 
+    }
+
+    .menu a:hover {
+        color: #4C6A9F; 
+        transform: scale(1.1); 
     }
 `;
 
