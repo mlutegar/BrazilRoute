@@ -6,7 +6,6 @@ const WhyChooseCardStyle = styled.div`
     border-radius: 10px;
     padding: 20px;
     text-align: center;
-    width: 300px;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     animation: zoomIn 0.5s ease;
 z-index: 2;

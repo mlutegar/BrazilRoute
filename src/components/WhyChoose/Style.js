@@ -35,11 +35,11 @@ const WhyChooseStyle = styled.header`
         padding: 50px 0;
         width: 100%;
         display: flex;
-        justify-content: center;
+        justify-content: space-evenly;
         gap: 20px;
         flex-wrap: wrap;
         padding-bottom: 5em;
-        flex-direction: column;
+        flex-direction: row;
     }
 
     .svg {
