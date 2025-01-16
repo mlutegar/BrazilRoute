@@ -14,8 +14,14 @@ const FooterStyle = styled.header`
         min-width: 5em;
         text-decoration: none;
         font-size: 16px;
-        font-weight: normal;
+        font-weight: 700;
         color: #FFFFFF;
+        transition: color 0.3s ease, transform 0.3s ease;
+    }
+
+    .menu a:hover {
+        color: #fffecd;
+        transform: scale(1.1);
     }
 
     .imagem {
