@@ -49,6 +49,12 @@ const KeyBenefitsStyle = styled.header`
         display: flex;
         flex-direction: row;
         align-items: center;
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+        animation: zoomIn 0.5s ease;
+
+        &:hover {
+            transform: translateY(-10px);
+        }
     }
 
     .conteudolinha-ultimo {
@@ -57,6 +63,12 @@ const KeyBenefitsStyle = styled.header`
         display: flex;
         flex-direction: row;
         align-items: center;
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+        animation: zoomIn 0.5s ease;
+
+        &:hover {
+            transform: translateY(-10px);
+        }
     }
 
     .linha {
