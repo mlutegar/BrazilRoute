@@ -10,6 +10,10 @@
   --detalhe:hsla(241, 96%, 72%, 1);
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   margin: 0;
   font-family: 'Inter', serif;

@@ -1,4 +1,4 @@
-import Base from "./Base"
+import Base from "./Base";
 import Banner from "../components/Banner/Banner";
 import IsMoreThan from "../components/IsMoreThan/IsMoreThan";
 import WhatsSets from "../components/WhatsSets/WhatsSets";
@@ -10,19 +10,26 @@ import ReadTo from "../components/ReadyTo/ReadyTo";
 import OurServices from "../components/OurServices/OurServices";
 
 const Home = () => {
-  return (
-    <Base>
-        <Banner/>
-        <IsMoreThan/>
-        <WhatsSets/>
-        <WhyChoose/>
-        <WhyBrazil/>
-        <OurServices/>
-        <KeyBenefits/>
-        <KeyFacts/>
-        <ReadTo/>
-    </Base>
-  )
-}
+    return (
+        <Base>
+            <Banner/>
+            <IsMoreThan/>
+            <WhatsSets/>
+            <section id="about-us">
+                <WhyChoose/>
+                <WhyBrazil/>
+            </section>
+            <section id="services">
+                <OurServices/>
+            </section>
+            <KeyBenefits/>
+            <KeyFacts/>
+            <section id="contact">
+                <ReadTo/>
+            </section>
+        </Base>
+    )
+        ;
+};
 
-export default Home
+export default Home;
