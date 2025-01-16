@@ -1,4 +1,4 @@
-import {useContext} from "react";
+import {useContext, useEffect} from "react";
 import {MenuContext} from "../../context/MenuContext";
 import {
     ArteStyle,
@@ -30,6 +30,17 @@ const ArteSVG = () => (
 
 const MenuMobile = () => {
     const {menuAberto, toggleMenu} = useContext(MenuContext);
+
+    useEffect(() => {
+        if (menuAberto) {
+            document.body.style.overflow = "hidden";
+        } else {
+            document.body.style.overflow = "auto";
+        }
+        return () => {
+            document.body.style.overflow = "auto";
+        };
+    }, [menuAberto]);
 
     return (
         <MenuMobileStyle

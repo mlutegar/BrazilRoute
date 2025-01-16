@@ -3,7 +3,7 @@ import styled from "styled-components";
 const OurServicesStyle = styled.div`
     padding: 40px 150px;
     background-color: #f9f9f9;
-    
+
     .secao {
         text-align: center;
         width: 100%;
@@ -22,7 +22,7 @@ const OurServicesStyle = styled.div`
         display: flex;
         justify-content: space-around;
         align-items: center;
-flex-wrap: wrap;
+        flex-wrap: wrap;
     }
 
     .link {
@@ -46,7 +46,7 @@ flex-wrap: wrap;
         width: 16px;
         height: 16px;
     }
-    
+
     .link svg {
         transition: transform 0.3s ease, box-shadow 0.3s ease, background 0.3s ease;
 
@@ -61,6 +61,10 @@ flex-wrap: wrap;
         justify-content: center;
         gap: 20px;
         flex-wrap: wrap;
+    }
+
+    @media screen and (max-width: 768px) {
+        padding: 100px 10px;
     }
 `;
 

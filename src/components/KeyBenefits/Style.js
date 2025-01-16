@@ -104,5 +104,13 @@ const KeyBenefitsStyle = styled.header`
         line-height: normal;
     }
 
+    @media screen and (max-width: 768px) {
+            padding: 100px 10px;
+
+        .svg{
+            display: none;
+        }
+    }
+
 `
 export {KeyBenefitsStyle}

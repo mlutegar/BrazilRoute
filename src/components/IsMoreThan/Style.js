@@ -91,5 +91,11 @@ const IsMoreThanStyle = styled.header`
         opacity: 0; /* Inicialmente invisível */
         animation-delay: 2s;
     }
+    
+    @media screen and (max-width: 768px) {
+        .circulo-direita, .circulo-esquerda {
+            display: none;
+        }
+    }
 `
 export {IsMoreThanStyle}

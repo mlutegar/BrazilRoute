@@ -73,5 +73,12 @@ const WhyBrazilStyle = styled.header`
         gap: 50px;
         justify-content: center;
     }
+    
+    @media screen and (max-width: 768px) {
+        .conteudo-brazil {
+            padding: 100px 10px;
+            gap: 50px;
+        }
+    }
 `
 export {WhyBrazilStyle}

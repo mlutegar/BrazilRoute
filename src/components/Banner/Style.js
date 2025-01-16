@@ -88,6 +88,10 @@ const BannerStyle = styled.header`
             }
         }
     }
+    
+    @media (max-width: 768px) {
+        padding: 0 10px;
+    }
 `
 
 export {BannerStyle}
