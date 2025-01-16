@@ -15,7 +15,7 @@ $ git add .
 Comando para fazer commit dos arquivos:
 
 ```bash
-$ git commit -m "feat: adicionando menu hover mobile" --no-verify
+$ git commit -m "feat: finalizando o mobile" --no-verify
 ```
 
 Comando para fazer push dos arquivos:

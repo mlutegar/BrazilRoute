@@ -55,3 +55,22 @@ export const BotoesStyle = styled.div`
     align-items: center;
     width: 100%;
 `;
+
+export const ImagemStyle = styled.div`
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+`;
+
+export const ArteStyle = styled.div`
+    position: absolute;
+    top: 50px;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.5; 
+`;
