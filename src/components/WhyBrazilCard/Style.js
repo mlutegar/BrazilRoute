@@ -13,8 +13,8 @@ const WhyBrazilCardStyle = styled.div`
     z-index: 10;
 
     &:hover {
-        transform: translateY(-10px); 
-        background: #326b54;
+        transform: translateY(-10px);
+        background: #63c89d;
         box-shadow: 20px 20px 0px #FFFECD;
     }
 
