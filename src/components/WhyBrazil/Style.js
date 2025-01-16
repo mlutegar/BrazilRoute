@@ -15,13 +15,13 @@ const WhyBrazilStyle = styled.header`
     .conteudo-brazil {
         display: flex;
         flex-direction: row;
-        justify-content: flex-start;
+        justify-content: center;
         align-items: flex-start;
         width: 100%;
         max-width: 1440px;
         margin: 0 auto;
         position: relative;
-        padding-left: 150px;
+        padding: 100px 150px;
         gap: 100px;
         flex-wrap: wrap;
     }
@@ -62,8 +62,6 @@ const WhyBrazilStyle = styled.header`
         display: flex;
         flex-direction: column;
         justify-content: center;
-        padding-bottom: 3.8em;
-        padding-top: 5em;
         flex-wrap: wrap;
         gap: 50px;
     }
@@ -73,6 +71,7 @@ const WhyBrazilStyle = styled.header`
         flex-direction: row;
         flex-wrap: wrap;
         gap: 50px;
+        justify-content: center;
     }
 `
 export {WhyBrazilStyle}

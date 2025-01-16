@@ -15,13 +15,13 @@ const IsMoreThanStyle = styled.header`
     .svgD{
         position: absolute;
         top: 150px;
-        right: -100px;
+        right: 0px;
     }
 
     .svgE{
         position: absolute;
         bottom: 150px;
-        left: -100px;
+        left: 0;
     }
 
     .titulo {

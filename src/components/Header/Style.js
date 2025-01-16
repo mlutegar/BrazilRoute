@@ -37,6 +37,31 @@ const Top = styled.header`
         color: #4C6A9F; 
         transform: scale(1.1); 
     }
+    
+    .svg-hamburguer{
+        display: none;
+    }
+    
+    @media (max-width: 768px) {
+        padding: 0.5em 50px;
+        
+        .menu{
+            display: none;
+        }
+        
+        .svg-hamburguer{
+            display: block;
+        }
+        
+        .svg-hamburguer svg{
+            cursor: pointer;
+            transition: transform 0.3s ease;
+        }
+        
+        .svg-hamburguer svg:active{
+            transform: scale(0.9);
+        }
+    }
 `;
 
 export {Top};
