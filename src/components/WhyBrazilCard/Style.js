@@ -7,13 +7,15 @@ const WhyBrazilCardStyle = styled.div`
     text-align: center;
     width: 264px;
     flex-shrink: 0;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    transition: transform 0.3s ease, box-shadow 0.3s ease, background 0.3s ease;
     animation: zoomIn 0.5s ease;
     box-shadow: 30px 30px 0px #FFFECD;
     z-index: 10;
 
     &:hover {
         transform: translateY(-10px); 
+        background: #326b54;
+        box-shadow: 20px 20px 0px #FFFECD;
     }
 
     .icon {

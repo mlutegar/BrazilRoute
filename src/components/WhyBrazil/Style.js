@@ -59,14 +59,20 @@ const WhyBrazilStyle = styled.header`
     }
 
     .CardsContainer {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: repeat(2, auto);
-        column-gap: 100px;
-        row-gap: 50px;
+        display: flex;
+        flex-direction: column;
         justify-content: center;
         padding-bottom: 3.8em;
         padding-top: 5em;
+        flex-wrap: wrap;
+        gap: 50px;
+    }
+    
+    .grupo-card{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 50px;
     }
 `
 export {WhyBrazilStyle}

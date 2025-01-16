@@ -23,9 +23,9 @@ const Header = () => {
                 </div>
 
                 <div className="menu">
-                    <a href="/contact">Contact</a>
-                    <a href="/services">Services</a>
                     <a href="/about-us">About us</a>
+                    <a href="/services">Services</a>
+                    <a href="/contact">Contact</a>
                 </div>
             </div>
         </Top>
