@@ -61,6 +61,7 @@ const IsMoreThanStyle = styled.header`
     .titulo-superior,
     .titulo-inferior {
         margin-bottom: 5px;
+        text-align: center;
     }
 
     .titulo-destaque {

@@ -74,6 +74,10 @@ const Top = styled.header`
             transform: scale(0.9);
         }
     }
+    
+    @media (max-width: 440px){
+        padding: 0.5em 10px;
+    }
 `;
 
 export {Top};

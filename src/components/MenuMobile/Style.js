@@ -17,7 +17,11 @@ export const ConteudoMenu = styled.div`
     align-items: flex-end;
     width: 100%;
     height: 100%;
-    padding: 0.5em 50px;
+    padding: 2.5em 50px 0;
+    
+    @media (max-width: 330px) {
+        padding: 2.5em 10px 0;
+    }
 `;
 
 export const MenuHamburguerStyle = styled.div`

@@ -11,14 +11,14 @@ const KeyBenefitsStyle = styled.header`
     padding: 0 150px;
     justify-content: flex-start;
     position: relative;
-    
-    .svg{
+
+    .svg {
         position: absolute;
         right: 0;
         top: 20px;
     }
 
-    .container{
+    .container {
         position: relative;
         display: flex;
         flex-direction: column;
@@ -32,14 +32,13 @@ const KeyBenefitsStyle = styled.header`
         flex-direction: column;
         align-items: center;
         padding-top: 70px;
-        width: 494px;
         color: #FFF;
         font-size: 32px;
         font-style: normal;
         font-weight: 700;
         line-height: normal;
         padding-bottom: 1.5em;
-        
+
     }
 
     .Subtitulo {
@@ -105,9 +104,14 @@ const KeyBenefitsStyle = styled.header`
     }
 
     @media screen and (max-width: 768px) {
-            padding: 100px 10px;
+        padding: 100px 10px;
+        
+        .linha {
+            padding: 0;
+        }
 
-        .svg{
+
+        .svg {
             display: none;
         }
     }

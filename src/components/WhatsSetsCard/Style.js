@@ -47,6 +47,10 @@ const WhatsSetsCardStyle = styled.div`
             opacity: 1;
         }
     }
+    
+    @media screen and (max-width: 460px) {
+        width: auto;
+    }
 `;
 
 export { WhatsSetsCardStyle };

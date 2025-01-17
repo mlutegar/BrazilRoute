@@ -50,6 +50,7 @@ const IsMoreThanStyle = styled.header`
 
     .titulo-superior {
         color: #FAFFCA;
+
     }
 
     .titulo-destaque {
@@ -80,5 +81,6 @@ const IsMoreThanStyle = styled.header`
         justify-content: center;
         padding-bottom: 4em;
     }
+    
 `
 export {IsMoreThanStyle}

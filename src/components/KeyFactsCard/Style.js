@@ -68,6 +68,18 @@ const WhatsSetsCardStyle = styled.div`
             opacity: 1;
         }
     }
+
+    @media (max-width: 768px) {
+        width: auto;
+        height: auto;
+        margin: 10px;
+        flex-wrap: wrap;
+        justify-content: center;
+        
+        .content{
+            justify-content: center;
+        }
+    }
 `;
 
 export { WhatsSetsCardStyle };

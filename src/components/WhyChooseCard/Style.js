@@ -8,17 +8,19 @@ const WhyChooseCardStyle = styled.div`
     text-align: center;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     animation: zoomIn 0.5s ease;
-z-index: 2;
+    z-index: 2;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
 
     &:hover {
-        transform: translateY(-10px); 
+        transform: translateY(-10px);
     }
 
     .icon {
         width: 74px;
         height: 74px;
         flex-shrink: 0;
-        padding-right: 40px
     }
 
     .content {
@@ -61,6 +63,21 @@ z-index: 2;
             opacity: 1;
         }
     }
+    
+    @media (max-width: 863px) {
+        gap: 20px;
+        
+        .title, .text {
+            justify-content: center;
+            text-align: center;
+        }
+    }
+
+    @media (max-width: 450px) {
+        .title, .text {
+            width: auto;
+        }
+    }
 `;
 
-export { WhyChooseCardStyle };
+export {WhyChooseCardStyle};

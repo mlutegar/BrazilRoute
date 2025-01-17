@@ -2,7 +2,7 @@
 
 import styled from "styled-components"
 
-const WhyBrazilStyle = styled.header`
+export const WhyBrazilStyle = styled.header`
     background: #4C6A9F;
     width: 100%;
     display: flex;
@@ -55,7 +55,7 @@ const WhyBrazilStyle = styled.header`
         font-style: normal;
         font-weight: 700;
         line-height: normal;
-        width: 385px;
+        max-width: 385px;
     }
 
     .CardsContainer {
@@ -65,15 +65,15 @@ const WhyBrazilStyle = styled.header`
         flex-wrap: wrap;
         gap: 50px;
     }
-    
-    .grupo-card{
+
+    .grupo-card {
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
         gap: 50px;
         justify-content: center;
     }
-    
+
     @media screen and (max-width: 768px) {
         .conteudo-brazil {
             padding: 100px 10px;
@@ -81,4 +81,11 @@ const WhyBrazilStyle = styled.header`
         }
     }
 `
-export {WhyBrazilStyle}
+
+export const DivConteudoTexto = styled.div`
+    display: flex;
+    gap: 50px;
+    flex-wrap: wrap;
+    justify-content: center;
+
+`

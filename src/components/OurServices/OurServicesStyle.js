@@ -63,6 +63,12 @@ const OurServicesStyle = styled.div`
         flex-wrap: wrap;
     }
 
+    @media screen and (max-width: 1279px) {
+        .link svg {
+            transform: rotate(90deg);
+        }
+    }
+
     @media screen and (max-width: 768px) {
         padding: 100px 10px;
     }

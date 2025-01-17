@@ -15,7 +15,7 @@ $ git add .
 Comando para fazer commit dos arquivos:
 
 ```bash
-$ git commit -m "feat: adicionando responsividade" --no-verify
+$ git commit -m "feat: finalizando responsividade" --no-verify
 ```
 
 Comando para fazer push dos arquivos:

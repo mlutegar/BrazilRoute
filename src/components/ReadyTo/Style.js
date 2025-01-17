@@ -23,6 +23,7 @@ const ReadToStyle = styled.header`
         line-height: normal;
         padding-top: 5em;
         padding-bottom: 1em;
+        text-align: center;
     }
 
     .Subtitulo {
@@ -34,7 +35,6 @@ const ReadToStyle = styled.header`
         font-style: normal;
         font-weight: 400;
         line-height: normal;
-        width: 751px;
     }
 
     .botoes {
@@ -43,14 +43,8 @@ const ReadToStyle = styled.header`
         justify-content: center;
         padding-bottom: 9em;
         padding-top: 1em;
-    }
-    
-    .botaolets {
-        padding-right:3em;
-    }
-    
-    .botaowhats{
-        padding-left:3em;
+        gap: 3em;
+        flex-wrap: wrap;
     }
 `
 export {ReadToStyle}
