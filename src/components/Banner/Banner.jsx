@@ -6,7 +6,8 @@ const Banner = () => (
         <Texto>
             <div className={"conteudo-banner"}>
                 <div className={"Titulo"}>
-                    Scale Your Tech Business in Brazil with Brazilroute
+                    Launch Your Tech Business in Brazil. The Easier, Faster, and Most Confident Way.
+                    Brazilroute.
                 </div>
 
                 <div className={"Subtitulo"}>
