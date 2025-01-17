@@ -46,5 +46,20 @@ const ReadToStyle = styled.header`
         gap: 3em;
         flex-wrap: wrap;
     }
+
+    @media screen and (max-width: 768px) {
+        .Titulo{
+            padding-top: 50px;
+        }
+        
+        .Titulo, .Subtitulo  {
+            padding-right: 20px;
+            padding-left: 20px;
+        }
+        
+        .botoes {
+            padding-bottom: 50px;    
+        }
+    }
 `
 export {ReadToStyle}

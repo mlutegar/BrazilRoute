@@ -104,7 +104,8 @@ const KeyBenefitsStyle = styled.header`
     }
 
     @media screen and (max-width: 768px) {
-        padding: 100px 10px;
+        padding-left: 20px;
+        padding-right: 20px;
         
         .linha {
             padding: 0;
@@ -113,6 +114,10 @@ const KeyBenefitsStyle = styled.header`
 
         .svg {
             display: none;
+        }
+        
+        .conteudolinha-ultimo {
+            padding-bottom: 50px;
         }
     }
 

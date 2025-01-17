@@ -63,21 +63,17 @@ const WhyChooseCardStyle = styled.div`
             opacity: 1;
         }
     }
-    
+
     @media (max-width: 863px) {
         gap: 20px;
-        
+        padding: 20px 0;
+
         .title, .text {
             justify-content: center;
             text-align: center;
         }
     }
 
-    @media (max-width: 450px) {
-        .title, .text {
-            width: auto;
-        }
-    }
 `;
 
 export {WhyChooseCardStyle};

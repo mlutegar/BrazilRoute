@@ -82,6 +82,12 @@ export const WhyBrazilStyle = styled.header`
             text-align: center;
         }
     }
+
+    @media screen and (min-width: 768px) {
+        .Titulo {
+            padding-top: 50px;
+        }
+    }
 `
 
 export const DivConteudoTexto = styled.div`

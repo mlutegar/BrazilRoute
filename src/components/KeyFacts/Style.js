@@ -81,6 +81,16 @@ const IsMoreThanStyle = styled.header`
         justify-content: center;
         padding-bottom: 4em;
     }
+
+    @media screen and (max-width: 768px) {
+        .titulo {
+            text-align: center;
+        }
+
+        .Coluna1, .Coluna2 {
+            gap: 30px;
+        }
+    }
     
 `
 export {IsMoreThanStyle}
