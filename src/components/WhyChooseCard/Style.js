@@ -66,6 +66,7 @@ const WhyChooseCardStyle = styled.div`
     
     @media (max-width: 863px) {
         gap: 20px;
+        padding: 0;
         
         .title, .text {
             justify-content: center;
@@ -75,7 +76,6 @@ const WhyChooseCardStyle = styled.div`
 
     @media (max-width: 450px) {
         .title, .text {
-            width: auto;
         }
     }
 `;

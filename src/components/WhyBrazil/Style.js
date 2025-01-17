@@ -78,6 +78,12 @@ export const WhyBrazilStyle = styled.header`
             gap: 50px;
         }
     }
+
+    @media screen and (min-width: 768px) {
+        .Titulo {
+            padding-top: 50px;
+        }
+    }
 `
 
 export const DivConteudoTexto = styled.div`
