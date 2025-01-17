@@ -2,7 +2,7 @@ import styled from "styled-components"
 
 const WhatsappButtomStyle = styled.header`
     button {
-        width: 278px;
+        width: ${(props) => props.temTexto ? "278px" : "auto"};
         height: 48px;
         flex-shrink: 0;
         display: flex;
@@ -41,6 +41,9 @@ const WhatsappButtomStyle = styled.header`
         width: 36.192px;
         height: 36.192px;
         flex-shrink: 0;
+    ${({temTexto}) => !temTexto ? `
+        padding: 0;
+    ` : ""
     }
     
 `

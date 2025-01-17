@@ -7,7 +7,7 @@ const Top = styled.header`
     position: sticky;
     top: 0;
     z-index: 1000;
-    opacity: ${(props) => (props.isScrolled ? 0.8 : 1)};
+    opacity: ${(props) => (props.isScrolled ? 0.95 : 1)};
     transition: opacity 0.3s ease;
 
     .conteudo-header {

@@ -1,10 +1,10 @@
 import {Link} from "react-router-dom";
 import {LetsTalkButtomWhiteStyle} from "./Style";
 
-const LetsTalkButtomWhite = () => (
-    <LetsTalkButtomWhiteStyle>
+const LetsTalkButtomWhite = ({temTexto = true}) => (
+    <LetsTalkButtomWhiteStyle temTexto={temTexto}>
         <button>
-            <a>Let's Talk Business</a>
+            {temTexto && <a>Let's Talk Business</a>}
 
             <div className={"icon"}>
                 <svg xmlns="http://www.w3.org/2000/svg" width="37" height="37" viewBox="0 0 37 37" fill="none">

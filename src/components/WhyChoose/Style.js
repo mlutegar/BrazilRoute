@@ -32,7 +32,7 @@ const WhyChooseStyle = styled.header`
     }
 
     .CardsContainer {
-        padding: 50px 0;
+        padding: 0 0;
         width: 100%;
         display: flex;
         justify-content: space-evenly;

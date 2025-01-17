@@ -43,9 +43,7 @@ const MenuMobile = () => {
     }, [menuAberto]);
 
     return (
-        <MenuMobileStyle
-            ativo={menuAberto}
-        >
+        <MenuMobileStyle ativo={menuAberto}>
             <ConteudoMenu>
                 <MenuHamburguerStyle onClick={toggleMenu}>
                     <MenuHamburguerSVG/>
@@ -58,8 +56,8 @@ const MenuMobile = () => {
                 </MenuStyle>
 
                 <BotoesStyle>
-                    <LetsTalkButtomWhite/>
-                    <WhatsappButtom/>
+                    <LetsTalkButtomWhite temTexto={false}/>
+                    <WhatsappButtom temTexto={false}/>
                 </BotoesStyle>
 
                 <ImagemStyle>

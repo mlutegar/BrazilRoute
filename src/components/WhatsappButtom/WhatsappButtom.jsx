@@ -1,11 +1,10 @@
 import {Link} from "react-router-dom";
 import {WhatsappButtomStyle} from "./Style";
 
-const WhatsappButtom = () => (
-    <WhatsappButtomStyle>
+const WhatsappButtom = ({temTexto = true}) => (
+    <WhatsappButtomStyle temTexto={temTexto}>
         <button>
-            <a>Whatsapp</a>
-
+            {temTexto && <a>Whatsapp</a>}
             <div className={"icon"}>
                 <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30" fill="none">
                     <g clip-path="url(#clip0_1_435)">

@@ -77,6 +77,10 @@ export const WhyBrazilStyle = styled.header`
             padding: 4em 10px 3em;
             gap: 50px;
         }
+
+        .Titulo, .Texto {
+            text-align: center;
+        }
     }
 `
 
