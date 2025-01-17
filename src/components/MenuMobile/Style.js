@@ -9,6 +9,10 @@ export const MenuMobileStyle = styled.header`
     width: 100%;
     height: 100vh;
     z-index: 2000;
+    
+    @media (min-width: 768px) {
+        display: none;
+    }
 `;
 
 export const ConteudoMenu = styled.div`
@@ -40,7 +44,7 @@ export const MenuHamburguerStyle = styled.div`
 `;
 
 export const MenuStyle = styled.div`
-    margin-top: 7.59em;
+    margin-top: 2em;
     display: flex;
     flex-direction: column;
     gap: 3.75em;
@@ -52,7 +56,7 @@ export const MenuStyle = styled.div`
 `;
 
 export const BotoesStyle = styled.div`
-    margin-top: 7.56em;
+    margin-top: 2em;
     display: flex;
     flex-direction: column;
     gap: 3.1em;
@@ -62,11 +66,11 @@ export const BotoesStyle = styled.div`
 
 export const ImagemStyle = styled.div`
     width: 100%;
-    height: 100%;
     object-fit: cover;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 2em;
 `;
 
 export const ArteStyle = styled.div`

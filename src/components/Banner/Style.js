@@ -2,7 +2,7 @@
 
 import styled from "styled-components"
 
-const BannerStyle = styled.header`
+export const BannerStyle = styled.header`
     background: url("imagens/banner1.png");
     background-size: cover;
     background-repeat: no-repeat;
@@ -94,4 +94,11 @@ const BannerStyle = styled.header`
     }
 `
 
-export {BannerStyle}
+export const Texto = styled.div`
+    max-width: 450px;
+    
+    @media (max-width: 768px){
+        max-width: 100%;
+        text-align: center;
+    }
+`

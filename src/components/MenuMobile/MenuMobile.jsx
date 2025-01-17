@@ -52,9 +52,9 @@ const MenuMobile = () => {
                 </MenuHamburguerStyle>
 
                 <MenuStyle>
-                    <a href="#about-us">About us</a>
-                    <a href="#services">Services</a>
-                    <a href="#contact">Contact</a>
+                    <a href="#about-us" onClick={toggleMenu}>About us</a>
+                    <a href="#services" onClick={toggleMenu}>Services</a>
+                    <a href="#contact" onClick={toggleMenu}>Contact</a>
                 </MenuStyle>
 
                 <BotoesStyle>

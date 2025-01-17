@@ -14,7 +14,7 @@ const OurServicesStyle = styled.div`
     .titulo {
         font-size: 1.8em;
         font-weight: bold;
-        margin: 45px 0;
+        margin: 0 0 45px;
     }
 
     .grupo {
@@ -70,7 +70,7 @@ const OurServicesStyle = styled.div`
     }
 
     @media screen and (max-width: 768px) {
-        padding: 100px 10px;
+        padding: 4em 10px;
     }
 `;
 

@@ -21,7 +21,7 @@ export const WhyBrazilStyle = styled.header`
         max-width: 1440px;
         margin: 0 auto;
         position: relative;
-        padding: 100px 150px;
+        padding:  4em 150px;
         gap: 100px;
         flex-wrap: wrap;
     }
@@ -43,10 +43,8 @@ export const WhyBrazilStyle = styled.header`
         font-size: 32px;
         font-style: normal;
         font-weight: 900;
-        line-height: normal;
-        padding-top: 4.5em;
         padding-bottom: 1.5em;
-
+        z-index: 1;
     }
 
     .Texto {
@@ -76,7 +74,7 @@ export const WhyBrazilStyle = styled.header`
 
     @media screen and (max-width: 768px) {
         .conteudo-brazil {
-            padding: 100px 10px;
+            padding: 4em 10px 3em;
             gap: 50px;
         }
     }
