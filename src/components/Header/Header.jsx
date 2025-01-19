@@ -11,7 +11,7 @@ const MenuHamburguerSVG = () => (
 );
 
 const Header = () => {
-    const {menAberto, toggleMenu} = useContext(MenuContext);
+    const {toggleMenu} = useContext(MenuContext);
     const [isScrolled, setIsScrolled] = useState(false)
 
     useEffect(() => {

@@ -1,19 +1,26 @@
 import styled from "styled-components";
 
 const OurServicesCardStyle = styled.div`
-    background-color: ${(props) => props.cor || "#ffffff"};
-    border-radius: 8px;
-    padding: 20px;
-    width: 200px;
-    height: 300px;
-    text-align: center;
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-    animation: zoomIn 0.5s ease;
-    z-index: 10;
-
-    &:hover {
-        transform: translateY(-10px);
+    .ContainerCard {
+        background-color: ${(props) => props.cor || "#ffffff"};
+        border-radius: 8px;
+        padding: 20px;
+        width: 200px;
+        height: 300px;
+        text-align: center;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+        animation: zoomIn 0.5s ease;
+        z-index: 10;
+        
+        &:hover {
+            transform: translateY(-10px);
+        }
+    }
+    
+    .ContainerCard.ativo {
+        transform: translateY(+10px) scale(1.05);
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
     }
 
     .icone {

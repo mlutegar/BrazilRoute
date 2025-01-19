@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-const OurServicesStyle = styled.div`
+export const OurServicesStyle = styled.div`
     padding: 40px 150px;
     background-color: #f9f9f9;
 
@@ -23,8 +23,9 @@ const OurServicesStyle = styled.div`
         justify-content: space-around;
         align-items: center;
         flex-wrap: wrap;
+        transition: opacity 0.3s ease, position 0.3s 0.3s ease;
     }
-
+    
     .link {
         font-size: 1.2em;
         color: #333333;
@@ -56,13 +57,6 @@ const OurServicesStyle = styled.div`
         }
     }
 
-    .grupo-cards {
-        display: flex;
-        justify-content: center;
-        gap: 20px;
-        flex-wrap: wrap;
-    }
-
     @media screen and (max-width: 1279px) {
         .link svg {
             transform: rotate(90deg);
@@ -74,4 +68,9 @@ const OurServicesStyle = styled.div`
     }
 `;
 
-export default OurServicesStyle;
+export const GrupoCards = styled.div`
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+`;
